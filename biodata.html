@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata with Photo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .biodata-container {
+      width: 90%;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ddd;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .profile-img img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #4CAF50;
+      margin-bottom: 10px;
+    }
+    .header h1 {
+      font-size: 2.5em;
+      color: #333;
+    }
+    .header p {
+      font-size: 1.2em;
+      color: #666;
+    }
+    h2 {
+      margin-top: 20px;
+      color: #4CAF50;
+      border-bottom: 2px solid #8b0e21;
+      padding-bottom: 5px;
+      font-size: 1.6em;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+    ul li strong {
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 1.1em;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #45a049;
+    }
+    @media (max-width: 600px) {
+      .header h1 {
+        font-size: 2em;
+      }
+      .header p {
+        font-size: 1em;
+      }
+      .biodata-container {
+        padding: 15px;
+      }
+      .profile-img img {
+        width: 120px;
+        height: 120px;
+      }
+      .btn {
+        font-size: 1em;
+        padding: 8px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="biodata-container">
+    <header class="header">
+      <!-- Profile Picture -->
+      <div class="profile-img">
+        <img src="myimagee.JPG" alt="Profile Picture">
+      </div>
+      <h1>D P Sujan</h1>
+      <p>Web Developer</p>
+    </header>
+    <section class="personal-info">
+      <h2>Personal Information</h2>
+      <ul>
+        <li><strong>Father's Name:</strong> D K Prashanth kumar</li>
+        <li><strong>Mother's Name:</strong> M G Geetha</li>
+        <li><strong>Date of Birth:</strong> July 6 2004</li>
+        <li><strong>Gender:</strong> Male</li>
+        <li><strong>Email:</strong> dpsujan67@gmail.com</li>
+        <li><strong>Phone:</strong> 7676060698</li>
+        <li><strong>Address:</strong> Bhadravathi, Karnataka, India</li>
+        <li><strong>Nationality:</strong> Indian</li>
+      </ul>
+    </section>
+    <section class="hero">
+      <div class="container">
+        <a href="resume.html" class="btn">View My Resume</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
